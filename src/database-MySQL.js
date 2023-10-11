@@ -1,11 +1,11 @@
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 //Configuración
 var mysqlConn = mysql.createConnection({
-    host: 'localhost',
-    database: 'pruebainfodesign',
-    user: 'root',
-    password: ''
+    host: 'eml.com.co',
+    database: 'cmr_test',
+    user: 'root_cmr',
+    password: 'password'
 });
 
 //Conexión
