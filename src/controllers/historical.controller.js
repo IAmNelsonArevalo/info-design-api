@@ -25,7 +25,7 @@ module.exports = class historical {
 
       db.query(consultaCliente, (err, resp) => {
         if (err) {
-          callback(err);
+          callback({error: err});
         }
         callback(resp);
       });
